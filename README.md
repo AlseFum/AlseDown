@@ -13,9 +13,11 @@ A personal alter version for markdown
 
 lipus opunumasef[-]: -inline列表项 -inline列表项2 --item with space- 任何非"-"开头的都会结束流列表
 
-一些其他内容[^1]是角标。不在开头的会被认为是行内插入，在行首后接冒号的是展开项。
+一些其他内容[^1]是角标。不在开头的会被认为是行内插入，在行首后接冒号的是展开项。[^inline_img:base64]这个是插页内图
 [^1]:这是应当展开的部分
-
+[^inline_img]
+(base64图像格式)
+[/^]
 +> 这是展开项什么的
 |这就是子项
 |另一个子项
